@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g -Wall   CMakeFiles/wrapper.dir/src/wrapper.cpp.o  -o bin/wrapper -Wl,-rpath,/usr/local/lib/OctopOS -rdynamic -lpthread -ldl /usr/local/lib/OctopOS/libUtility.so /usr/local/lib/OctopOS/libSubscriber.so 

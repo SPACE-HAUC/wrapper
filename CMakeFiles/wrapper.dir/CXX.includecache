@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/wrapper/src/wrapper.cpp
+iostream
+-
+sys/signal.h
+-
+pthread.h
+-
+string.h
+-
+dlfcn.h
+-
+OctopOS/subscriber.h
+-
+
